@@ -50,11 +50,8 @@ div p {
 }
 
 div a + a {
-
+    margin-top: 16px;
 }
-
-
-
 
 div a {
     display: block;
@@ -67,4 +64,10 @@ div a {
     font-size: 14px;
     line-height: 21px;
 
+}
+
+div a:hover {
+    background-color: #c4f82a;
+    color: #141414;
+    transition: 0.6s;
 }
